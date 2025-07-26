@@ -1,0 +1,13 @@
+#In Python
+def getSecondLargest(self, arr):
+        s=set(arr)
+        sorted(s)
+        L=list(s)
+        L.sort()
+        if(len(L)<2):
+            return -1
+        for i in L:
+            if len(L)>1:
+                return L[-2]
+arr=list(map(int,input().split()))
+getSecondLargest(arr)
