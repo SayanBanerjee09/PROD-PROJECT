@@ -5,7 +5,8 @@ def insertAtEnd(self, arr, val):
 arr=list(map(int,input().split()))
 val=int(input())
 insertAtEnd(arr, val)
-
+#Input: arr[] = [10, 20, 30, 40], ele = 50
+#Output: [10, 20, 30, 40, 50]
 
 //In C
 #include<stdio.h>
@@ -27,5 +28,6 @@ printf("%d",a[i]);
 }
 return 0;
 }
-
+//Input: arr[] = [10, 20, 30, 40], ele = 50
+//Output: [10, 20, 30, 40, 50]
 
