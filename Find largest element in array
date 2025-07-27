@@ -3,8 +3,8 @@ def largest(self, arr):
       return max(arr)
 arr=list(map(int,input().split()))
 largest(arr)
-
-
+#Input: arr[] = [1, 8, 7, 56, 90]
+#Output: 90
 
 //In C
 #include<stdio.h>
@@ -31,7 +31,8 @@ int L=largest(arr, n);
 printf("%d",L);
 return 0;
 }
-
+//Input: arr[] = [1, 8, 7, 56, 90]
+//Output: 90
 
 
 
